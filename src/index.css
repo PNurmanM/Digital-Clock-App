@@ -1,0 +1,48 @@
+body{
+  background-image: url('assets/xpPaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  max-height: 100vh;
+  align-items: center;
+
+}
+
+.clockCont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(7px);
+  width: 100vw;
+  height: 12rem;
+}
+.clock{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 8rem;
+  color: hsl(109, 100%, 85%);
+  text-shadow: 5px 5px 10px black;
+}
+
+.dateCont{
+  font-family: monospace;
+  font-size: 2rem;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 95%;
+  margin-top: 10rem;
+  text-shadow: 
+    10px 10px 10px rgb(0, 0, 0),  /* Darker color */
+    10px 10px 15px rgb(0, 0, 0), /* Layered shadow */
+    10px 10px 20px rgb(0, 0, 0); /* Gradual fade */
+  color: rgb(182, 245, 255);
+  display: flex;
+  justify-content: flex-end;
+}
